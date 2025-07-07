@@ -55,17 +55,13 @@ const LeaveRequests = () => {
     setShowDeleteConfirm(true)
   }
 
-  const handleSaveRequest = async (requestData) => {
-    try {
-      if (selectedRequest) {
-        await updateRequest(selectedRequest.Id, requestData)
-      } else {
-        await createRequest(requestData)
-      }
-      setShowModal(false)
-    } catch (error) {
-      throw error
+const handleSaveRequest = async (requestData) => {
+    if (selectedRequest) {
+      await updateRequest(selectedRequest.Id, requestData)
+    } else {
+      await createRequest(requestData)
     }
+    setShowModal(false)
   }
 
   const confirmDelete = async () => {

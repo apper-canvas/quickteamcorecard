@@ -61,17 +61,13 @@ const Employees = () => {
     setShowDeleteConfirm(true)
   }
 
-  const handleSaveEmployee = async (employeeData) => {
-    try {
-      if (selectedEmployee) {
-        await updateEmployee(selectedEmployee.Id, employeeData)
-      } else {
-        await createEmployee(employeeData)
-      }
-      setShowModal(false)
-    } catch (error) {
-      throw error
+const handleSaveEmployee = async (employeeData) => {
+    if (selectedEmployee) {
+      await updateEmployee(selectedEmployee.Id, employeeData)
+    } else {
+      await createEmployee(employeeData)
     }
+    setShowModal(false)
   }
 
   const confirmDelete = async () => {
