@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 1,
+    "employeeId": 1,
+    "type": "vacation",
+    "startDate": "2024-02-15",
+    "endDate": "2024-02-20",
+    "reason": "Family vacation to Hawaii",
+    "status": "approved",
+    "requestDate": "2024-01-15",
+    "approvedBy": 7
+  },
+  {
+    "Id": 2,
+    "employeeId": 2,
+    "type": "sick",
+    "startDate": "2024-01-25",
+    "endDate": "2024-01-26",
+    "reason": "Flu symptoms",
+    "status": "approved",
+    "requestDate": "2024-01-24",
+    "approvedBy": 7
+  },
+  {
+    "Id": 3,
+    "employeeId": 3,
+    "type": "personal",
+    "startDate": "2024-02-05",
+    "endDate": "2024-02-05",
+    "reason": "Medical appointment",
+    "status": "pending",
+    "requestDate": "2024-01-30",
+    "approvedBy": null
+  },
+  {
+    "Id": 4,
+    "employeeId": 4,
+    "type": "vacation",
+    "startDate": "2024-03-01",
+    "endDate": "2024-03-10",
+    "reason": "Spring break vacation",
+    "status": "pending",
+    "requestDate": "2024-02-01",
+    "approvedBy": null
+  },
+  {
+    "Id": 5,
+    "employeeId": 5,
+    "type": "emergency",
+    "startDate": "2024-01-20",
+    "endDate": "2024-01-22",
+    "reason": "Family emergency",
+    "status": "approved",
+    "requestDate": "2024-01-19",
+    "approvedBy": 7
+  }
+]

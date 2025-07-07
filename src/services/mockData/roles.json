@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "name": "Senior Developer",
+    "departmentId": 1,
+    "description": "Lead technical development and mentoring"
+  },
+  {
+    "Id": 2,
+    "name": "Marketing Manager",
+    "departmentId": 2,
+    "description": "Manage marketing campaigns and strategy"
+  },
+  {
+    "Id": 3,
+    "name": "Sales Representative",
+    "departmentId": 3,
+    "description": "Generate leads and close sales"
+  },
+  {
+    "Id": 4,
+    "name": "Junior Developer",
+    "departmentId": 1,
+    "description": "Assist with development tasks and learning"
+  },
+  {
+    "Id": 5,
+    "name": "Content Specialist",
+    "departmentId": 2,
+    "description": "Create and manage content marketing materials"
+  },
+  {
+    "Id": 6,
+    "name": "Account Manager",
+    "departmentId": 3,
+    "description": "Manage client relationships and renewals"
+  },
+  {
+    "Id": 7,
+    "name": "HR Specialist",
+    "departmentId": 4,
+    "description": "Handle recruitment and employee relations"
+  },
+  {
+    "Id": 8,
+    "name": "Financial Analyst",
+    "departmentId": 5,
+    "description": "Analyze financial data and create reports"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "Id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@company.com",
+    "phone": "(555) 123-4567",
+    "departmentId": 1,
+    "roleId": 1,
+    "status": "active",
+    "joinDate": "2023-01-15",
+    "photoUrl": null,
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001"
+    }
+  },
+  {
+    "Id": 2,
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@company.com",
+    "phone": "(555) 234-5678",
+    "departmentId": 2,
+    "roleId": 2,
+    "status": "active",
+    "joinDate": "2023-02-01",
+    "photoUrl": null,
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90210"
+    }
+  },
+  {
+    "Id": 3,
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "email": "michael.johnson@company.com",
+    "phone": "(555) 345-6789",
+    "departmentId": 3,
+    "roleId": 3,
+    "status": "active",
+    "joinDate": "2023-03-10",
+    "photoUrl": null,
+    "address": {
+      "street": "789 Pine Rd",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601"
+    }
+  },
+  {
+    "Id": 4,
+    "firstName": "Emily",
+    "lastName": "Brown",
+    "email": "emily.brown@company.com",
+    "phone": "(555) 456-7890",
+    "departmentId": 1,
+    "roleId": 4,
+    "status": "on_leave",
+    "joinDate": "2023-04-05",
+    "photoUrl": null,
+    "address": {
+      "street": "321 Elm St",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02101"
+    }
+  },
+  {
+    "Id": 5,
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david.wilson@company.com",
+    "phone": "(555) 567-8901",
+    "departmentId": 2,
+    "roleId": 5,
+    "status": "active",
+    "joinDate": "2023-05-20",
+    "photoUrl": null,
+    "address": {
+      "street": "654 Maple Dr",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101"
+    }
+  },
+  {
+    "Id": 6,
+    "firstName": "Sarah",
+    "lastName": "Davis",
+    "email": "sarah.davis@company.com",
+    "phone": "(555) 678-9012",
+    "departmentId": 3,
+    "roleId": 6,
+    "status": "active",
+    "joinDate": "2023-06-12",
+    "photoUrl": null,
+    "address": {
+      "street": "987 Cedar Ln",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101"
+    }
+  },
+  {
+    "Id": 7,
+    "firstName": "Robert",
+    "lastName": "Miller",
+    "email": "robert.miller@company.com",
+    "phone": "(555) 789-0123",
+    "departmentId": 4,
+    "roleId": 7,
+    "status": "inactive",
+    "joinDate": "2023-07-08",
+    "photoUrl": null,
+    "address": {
+      "street": "147 Birch Ave",
+      "city": "Denver",
+      "state": "CO",
+      "zipCode": "80201"
+    }
+  },
+  {
+    "Id": 8,
+    "firstName": "Lisa",
+    "lastName": "Garcia",
+    "email": "lisa.garcia@company.com",
+    "phone": "(555) 890-1234",
+    "departmentId": 5,
+    "roleId": 8,
+    "status": "active",
+    "joinDate": "2023-08-15",
+    "photoUrl": null,
+    "address": {
+      "street": "258 Spruce St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zipCode": "85001"
+    }
+  }
+]
